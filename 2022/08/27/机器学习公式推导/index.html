@@ -103,6 +103,12 @@
 		            </a>
 		        </li>
 		        
+		        <li>
+		            <a href="/tag/" title="标签">
+		                标签
+		            </a>
+		        </li>
+		        
 
 
             </ul>
@@ -125,24 +131,21 @@
 </nav>
 
         <div id="main" >
-            <div class ="post_page_title_img" style="height: 25rem;background-image: url();background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
-                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >Hello World</h2></a>
+            <div class ="post_page_title_img" style="height: 25rem;background-image: url(images/blog2.jpg);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;overflow:hidden;" >
+                <a href="#" style="padding: 4rem 4rem 2rem 4rem ;"><h2 >机器学习公式推导（持续更新中）</h2></a>
             </div>
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+                <p><em>啊啊啊真的好喜欢敲公式啊，感觉能让自己躁动的心变得很平静</em></p>
+<p>​        笔者最近在做深度学习在心室分割领域的研究，越往深探索越感觉自己不论是在Python语法上还是深度学习的算法框架以及优化器的选择上都存在知识上的漏洞。在认识到自己的不足后，笔者决定从语言和算法上着手弥补自己的短板。在参考学习机器学习白板推导<sup>[1-2]</sup>、徐亦达教授机器学习课件<sup>[3]</sup>等相关资料后，笔者为了加强机器学习与深度学习的公式推导和原理的印象，开始了写机器学习日记（希望都能坚持到最后）。</p>
+<h1 id="更新内容在哪看？"><a href="#更新内容在哪看？" class="headerlink" title="更新内容在哪看？"></a>更新内容在哪看？</h1><p>所有的内容我都放在github里了，这里是<a target="_blank" rel="noopener" href="https://github.com/TheGreatLidia/Machine-Learning-Diary">链接</a></p>
+<h1 id="更新内容有话说！"><a href="#更新内容有话说！" class="headerlink" title="更新内容有话说！"></a>更新内容有话说！</h1><p>​       目前笔者还在做算法还是做数据分析中挣扎（看最后哪个岗位捞我了），不同的岗位对机器学习要求的内容不同。如果是数分的话，机器学习掌握分类（逻辑、贝叶斯、决策树等）、回归（线性回归等）、聚类（K-means）等算是入门。如果是算法，以游戏公司为例，那肯定必不可少强化学习。说来说去还是得按需来学习！但是由于目前笔者这海投的方式（主要是为了增加拿offer几率），注定不能把鸡蛋都放在一个篮子里，所以得学一大堆&#x3D;。&#x3D;！</p>
+<p>​       我将更新内容划为三个阶段：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">第一阶段：高斯分布、线性回归、线性分类、PCA、SVM、EM、概率图、CNN</span><br><span class="line"></span><br><span class="line">第二阶段：卡尔曼滤波、决策树、随机森林、贝叶斯</span><br><span class="line"></span><br><span class="line">剩下内容因为笔者也在学习中，所以会更新的慢一点。</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>更新内容参考资料：<br>[1] <a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1aE411o7qd/?vd_source=7968a29a0a782681bac6e8213702863e">机器学习白板推导视频</a></p>
+<p>[2] <a target="_blank" rel="noopener" href="https://www.yuque.com/books/share/f4031f65-70c1-4909-ba01-c47c31398466">机器学习白板推导笔记</a></p>
+<p>[3] <a target="_blank" rel="noopener" href="https://space.bilibili.com/327617676">徐亦达教授-机器学习</a></p>
 
             </div>
 
@@ -205,8 +208,8 @@ $('.btn_click_load').click(function() {
 -->
 <script type="text/javascript">
     var disqus_config = function () {
-        this.page.url = 'http://example.com/2022/10/11/hello-world/';  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://example.com/2022/10/11/hello-world/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = 'http://example.com/2022/08/27/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%AC%E5%BC%8F%E6%8E%A8%E5%AF%BC/';  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = 'http://example.com/2022/08/27/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%AC%E5%BC%8F%E6%8E%A8%E5%AF%BC/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
 </script>
 
